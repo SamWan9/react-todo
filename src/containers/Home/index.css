@@ -1,0 +1,36 @@
+h2{
+    width: 86%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.list .list-item{
+    width: 86%;
+    padding: 10px;
+    margin: 0 auto 10px;
+    border-radius: 5px;
+    border: 1px solid #777;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.list .list-item .time{
+    display: flex;
+    justify-content: space-between;
+    line-height: 35px;
+    border-bottom: 1px dashed #777;
+}
+.list .list-item .content{
+    line-height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list .list-item .state{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px dashed #777;
+    line-height: 35px;
+}
+.list .list-item .state .complete-group input{
+    margin-right: 5px;
+}

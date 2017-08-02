@@ -5,7 +5,7 @@
 ### 启动项目
 
 - npm install 安装依赖
-- npm run dev-node 启动数据服务器
+- npm run dev-node 启动数据服务
 - npm start 预览项目
 
 ### 项目描述

@@ -12,7 +12,13 @@ a{
 html,body,#root,.app{
     height: 100%;
 }
+.home,.special,.history,.add{
+    padding: 40px 0 52px;
+}
 .head{
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 40px;
     background: #00f600;
@@ -20,12 +26,12 @@ html,body,#root,.app{
     text-align: center;
     line-height: 40px;
 }
-.head .back{
+/*.head .back{
     position: absolute;
     left: 10px;
     top: 0;
     font-size: 22px;
-}
+}*/
 .menu{
     width: 100%;
     height: 50px;
@@ -35,6 +41,7 @@ html,body,#root,.app{
     display: flex;
     align-items: center;
     border-top: 1px solid #00f600;
+    background: #fff;
 }
 .menu a{
     display: flex;

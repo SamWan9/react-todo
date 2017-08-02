@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "body-parser": "^1.17.2",
     "bootstrap": "^3.3.7",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
     "history": "^4.6.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
